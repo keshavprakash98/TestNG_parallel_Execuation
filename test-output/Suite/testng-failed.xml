@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestOnChrome(failed)">
+    <classes>
+      <class name="ParallerExecutionTesting.ParallerExecutionTesting">
+        <methods>
+          <include name="verifyTitel"/>
+          <include name="LauchBrowser"/>
+        </methods>
+      </class> <!-- ParallerExecutionTesting.ParallerExecutionTesting -->
+    </classes>
+  </test> <!-- TestOnChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
